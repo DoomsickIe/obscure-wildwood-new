@@ -1,4 +1,4 @@
-import { FakeConsole } from "./console.js";
+import { FakeConsole } from "./src/js/console.js";
 
 const fConsole = new FakeConsole();
 
