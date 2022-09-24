@@ -2,11 +2,7 @@
   "dependencies": {
     "@tomphttp/bare-server-node": "^1.0.2-beta-readme2",
     "bare-server-node": "github:tomphttp/bare-server-node",
-    "create-react-app": "^5.0.1",
-    "node-static": "^0.7.11",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "reactdom": "^2.0.0"
+    "node-static": "^0.7.11"
   },
   "name": "uv-app",
   "version": "1.0.0",
