@@ -10,7 +10,7 @@ form.addEventListener('submit', async event => {
     fConsole.log("starting", "main@index.js", Date.now())
     event.preventDefault();
     try {
-        window.navigator.serviceWorker.register('https://combative-gold-moccasins.cyclic.app/sw.js', {
+        window.navigator.serviceWorker.register('./sw.js', {
         scope: __uv$config.prefix
     }).then(() => {
         fConsole.log("starting service worker", "sw@index.js", Date.now())
